@@ -1,0 +1,790 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_namesList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_namesList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_namesList.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="_namesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 35</value>
+  </data>
+  <data name="_namesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 412</value>
+  </data>
+  <data name="_namesList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_namesList.Name" xml:space="preserve">
+    <value>_namesList</value>
+  </data>
+  <data name="&gt;&gt;_namesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_namesList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_namesList.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="editQuestionName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 7</value>
+  </data>
+  <data name="editQuestionName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 23</value>
+  </data>
+  <data name="editQuestionName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editQuestionName.Name" xml:space="preserve">
+    <value>editQuestionName</value>
+  </data>
+  <data name="&gt;&gt;editQuestionName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editQuestionName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editQuestionName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="editButtonCount1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButtonCount1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Black, 9pt, style=Bold</value>
+  </data>
+  <data name="editButtonCount1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 199</value>
+  </data>
+  <data name="editButtonCount1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 31</value>
+  </data>
+  <data name="editButtonCount1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="editButtonCount1.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount1.Name" xml:space="preserve">
+    <value>editButtonCount1</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="editQuestionText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="editQuestionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 36</value>
+  </data>
+  <data name="editQuestionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>642, 160</value>
+  </data>
+  <data name="editQuestionText.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="editQuestionText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;editQuestionText.Name" xml:space="preserve">
+    <value>editQuestionText</value>
+  </data>
+  <data name="&gt;&gt;editQuestionText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editQuestionText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editQuestionText.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="editVariantsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editVariantsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="editVariantsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 202</value>
+  </data>
+  <data name="editVariantsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 21</value>
+  </data>
+  <data name="editVariantsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="editVariantsLabel.Text" xml:space="preserve">
+    <value>Варианты:</value>
+  </data>
+  <data name="&gt;&gt;editVariantsLabel.Name" xml:space="preserve">
+    <value>editVariantsLabel</value>
+  </data>
+  <data name="&gt;&gt;editVariantsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editVariantsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editVariantsLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="editButtonCount2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButtonCount2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Black, 9pt, style=Bold</value>
+  </data>
+  <data name="editButtonCount2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 199</value>
+  </data>
+  <data name="editButtonCount2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 31</value>
+  </data>
+  <data name="editButtonCount2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="editButtonCount2.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount2.Name" xml:space="preserve">
+    <value>editButtonCount2</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="editButtonCount3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButtonCount3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Black, 9pt, style=Bold</value>
+  </data>
+  <data name="editButtonCount3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 199</value>
+  </data>
+  <data name="editButtonCount3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 31</value>
+  </data>
+  <data name="editButtonCount3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="editButtonCount3.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount3.Name" xml:space="preserve">
+    <value>editButtonCount3</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButtonCount3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="editTemplateComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 202</value>
+  </data>
+  <data name="editTemplateComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="editTemplateComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;editTemplateComboBox.Name" xml:space="preserve">
+    <value>editTemplateComboBox</value>
+  </data>
+  <data name="&gt;&gt;editTemplateComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTemplateComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editTemplateComboBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="editTemplateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editTemplateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="editTemplateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 202</value>
+  </data>
+  <data name="editTemplateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="editTemplateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="editTemplateLabel.Text" xml:space="preserve">
+    <value>Шаблон:</value>
+  </data>
+  <data name="&gt;&gt;editTemplateLabel.Name" xml:space="preserve">
+    <value>editTemplateLabel</value>
+  </data>
+  <data name="&gt;&gt;editTemplateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTemplateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editTemplateLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="editButtonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 7</value>
+  </data>
+  <data name="editButtonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="editButtonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="editButtonDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="&gt;&gt;editButtonDelete.Name" xml:space="preserve">
+    <value>editButtonDelete</value>
+  </data>
+  <data name="&gt;&gt;editButtonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButtonDelete.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="editButtonNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 7</value>
+  </data>
+  <data name="editButtonNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="editButtonNew.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="editButtonNew.Text" xml:space="preserve">
+    <value>Новый вопрос</value>
+  </data>
+  <data name="&gt;&gt;editButtonNew.Name" xml:space="preserve">
+    <value>editButtonNew</value>
+  </data>
+  <data name="&gt;&gt;editButtonNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonNew.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButtonNew.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="editCheckBoxMultipleAnswers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editCheckBoxMultipleAnswers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="editCheckBoxMultipleAnswers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 201</value>
+  </data>
+  <data name="editCheckBoxMultipleAnswers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="editCheckBoxMultipleAnswers.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="editCheckBoxMultipleAnswers.Text" xml:space="preserve">
+    <value>Несколько ответов</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxMultipleAnswers.Name" xml:space="preserve">
+    <value>editCheckBoxMultipleAnswers</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxMultipleAnswers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxMultipleAnswers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxMultipleAnswers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="editButtonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 7</value>
+  </data>
+  <data name="editButtonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="editButtonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="editButtonSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;editButtonSave.Name" xml:space="preserve">
+    <value>editButtonSave</value>
+  </data>
+  <data name="&gt;&gt;editButtonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;editButtonSave.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="editButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="editButton3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="editButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 75</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="editButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 10, 5</value>
+  </data>
+  <data name="editButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 58</value>
+  </data>
+  <data name="editButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="editButton3.Text" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;editButton3.Name" xml:space="preserve">
+    <value>editButton3</value>
+  </data>
+  <data name="&gt;&gt;editButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton3.Parent" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;editButton3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="editButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="editButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="editButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="editButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 10, 5</value>
+  </data>
+  <data name="editButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 58</value>
+  </data>
+  <data name="editButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="editButton1.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;editButton1.Name" xml:space="preserve">
+    <value>editButton1</value>
+  </data>
+  <data name="&gt;&gt;editButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton1.Parent" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;editButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonsTablePanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ButtonsTablePanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonsTablePanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonsTablePanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="editButton6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="editButton6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="editButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 143</value>
+  </data>
+  <data name="editButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 5, 5, 5</value>
+  </data>
+  <data name="editButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 58</value>
+  </data>
+  <data name="editButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="editButton6.Text" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;editButton6.Name" xml:space="preserve">
+    <value>editButton6</value>
+  </data>
+  <data name="&gt;&gt;editButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton6.Parent" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;editButton6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editButton5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="editButton5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="editButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 143</value>
+  </data>
+  <data name="editButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 10, 5</value>
+  </data>
+  <data name="editButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 58</value>
+  </data>
+  <data name="editButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="editButton5.Text" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;editButton5.Name" xml:space="preserve">
+    <value>editButton5</value>
+  </data>
+  <data name="&gt;&gt;editButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton5.Parent" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;editButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="editButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="editButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 7</value>
+  </data>
+  <data name="editButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 5, 5, 5</value>
+  </data>
+  <data name="editButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 58</value>
+  </data>
+  <data name="editButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="editButton2.Text" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;editButton2.Name" xml:space="preserve">
+    <value>editButton2</value>
+  </data>
+  <data name="&gt;&gt;editButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton2.Parent" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;editButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="editButton4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="editButton4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="editButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="editButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 75</value>
+  </data>
+  <data name="editButton4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 5, 5, 5</value>
+  </data>
+  <data name="editButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 58</value>
+  </data>
+  <data name="editButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="editButton4.Text" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;editButton4.Name" xml:space="preserve">
+    <value>editButton4</value>
+  </data>
+  <data name="&gt;&gt;editButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButton4.Parent" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;editButton4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ButtonsTablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 232</value>
+  </data>
+  <data name="ButtonsTablePanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ButtonsTablePanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="ButtonsTablePanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonsTablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>636, 208</value>
+  </data>
+  <data name="ButtonsTablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ButtonsTablePanel.Name" xml:space="preserve">
+    <value>ButtonsTablePanel</value>
+  </data>
+  <data name="&gt;&gt;ButtonsTablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonsTablePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonsTablePanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonsTablePanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editButton6" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editButton5" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editButton2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editButton1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editButton4" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editButton3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 10</value>
+  </data>
+  <data name="label1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="label1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>DataBase</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 19</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxTextDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxTextDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="checkBoxTextDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 436</value>
+  </data>
+  <data name="checkBoxTextDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 17</value>
+  </data>
+  <data name="checkBoxTextDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="checkBoxTextDescription.Text" xml:space="preserve">
+    <value>* Позволяет выбрать несколько правильных ответов. Правая-Кнопка по ответу для выбора.</value>
+  </data>
+  <data name="checkBoxTextDescription.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTextDescription.Name" xml:space="preserve">
+    <value>checkBoxTextDescription</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTextDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTextDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTextDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 457</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EditMode</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EditMode</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
